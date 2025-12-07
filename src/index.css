@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+h1 {
+  color: #2c2621;
+}
+
+p {
+  line-height: 1.4;
+  color: #7e7367;
+}
+
+button {
+  /* background-color: #c96d1d; */
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: solid 2px #c96d1d;
+  color: #c96d1d;
+  font-weight: bold;
+  transition: all 0.4s ease;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #c96d1d;
+  color: aliceblue;
+  cursor: pointer;
+}
