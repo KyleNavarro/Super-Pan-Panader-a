@@ -1,6 +1,6 @@
 .MainContainer {
   background-color: #f5efe7;
-  height: 400px;
+  padding: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,13 +10,14 @@
 .MainContainer > h2 {
   color: #2c2621;
   font-size: 38px;
-  margin: 40px 0;
+  margin: 30px 0;
   border-bottom: 3px solid #c96d1d;
   padding-bottom: 20px;
+  text-align: center;
 }
 
 .MainContainer > p {
-  width: 60vw;
+  width: 40vw;
   font-size: 18px;
   text-align: center;
   line-height: 1.4;

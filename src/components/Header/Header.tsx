@@ -1,8 +1,7 @@
 import fondo from "../../assets/panMain.webp";
 import "./index.css";
-type Props = {};
 
-const Header = (props: Props) => {
+const Header = () => {
   return (
     <header style={{ backgroundImage: `url(${fondo})` }}>
       <h1>
@@ -13,10 +12,18 @@ const Header = (props: Props) => {
         </span>
       </h1>
       <p>
-        El mejor pan artesanal <br /> del area metropolitana de Bucaramanga
+        El mejor pan artesanal del <br /> área metropolitana de Bucaramanga, con
+        9 años <br /> de tradición y sabor incomparable.
       </p>
       <div>
-        <button>Visitanos</button>
+        <button
+          onClick={() => {
+            const section = document.getElementById("locations");
+            section?.scrollIntoView({ behavior: "smooth" });
+          }}
+        >
+          Visitanos
+        </button>
       </div>
     </header>
   );

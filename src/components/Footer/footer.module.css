@@ -1,0 +1,30 @@
+.main {
+  background-color: #c96d1d;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.main h3 {
+  font-size: 30px;
+  margin: 10px 0;
+  color: #ffffff;
+}
+
+.main p {
+  color: #ffffff;
+}
+
+.main a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.3s;
+  font-weight: bolder;
+}
+
+.main a:hover {
+  color: #0063c1;
+}

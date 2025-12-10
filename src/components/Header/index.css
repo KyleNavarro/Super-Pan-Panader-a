@@ -2,7 +2,7 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 700px;
+  height: 100vh;
   color: white;
   text-align: center;
   font-size: 38px;
@@ -35,4 +35,17 @@ header * {
 }
 span {
   color: #c96d1d;
+  font-family: "Playfair Display", serif;
+}
+
+@media (max-width: 768px) {
+  header p {
+    font-size: 20px;
+    width: 60vw;
+    margin: 20px auto;
+  }
+
+  header h1 {
+    font-size: 38px;
+  }
 }

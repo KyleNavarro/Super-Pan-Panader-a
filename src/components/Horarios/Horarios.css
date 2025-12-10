@@ -1,0 +1,97 @@
+.hours {
+  padding: 6rem 0;
+  background-color: rgba(208, 182, 155, 0.15);
+}
+
+/* .hours-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+} */
+
+.hours-content {
+  max-width: 36rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hours-content > h2 {
+  font-size: 38px;
+}
+
+/* .hours-title {
+  font-family: "Playfair Display", serif;
+  font-size: 38px;
+  font-weight: 700;
+  color: hsl(30, 15%, 15%);
+  margin-bottom: 1.5rem;
+} */
+
+.hours-divider {
+  width: 340px;
+  height: 0.25rem;
+  background-color: hsl(28, 75%, 45%);
+  margin: 15px auto 3rem;
+}
+
+.hours-list {
+  background: white;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  border: 1px solid rgba(208, 182, 155, 0.3);
+  animation: slideUp 0.6s ease-out forwards;
+}
+
+.hours-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(208, 182, 155, 0.2);
+}
+
+.hours-item:last-child {
+  border-bottom: none;
+}
+
+.hours-day {
+  font-weight: 600;
+  color: hsl(30, 15%, 15%);
+  font-size: 1.05rem;
+}
+
+.hours-time {
+  color: hsl(30, 10%, 45%);
+  font-size: 1.05rem;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .hours {
+    padding: 4rem 0;
+  }
+
+  .hours-title {
+    font-size: 2rem;
+  }
+
+  .hours-list {
+    padding: 1.5rem;
+  }
+
+  .hours-item {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+}
